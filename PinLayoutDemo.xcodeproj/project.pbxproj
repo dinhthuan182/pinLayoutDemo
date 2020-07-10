@@ -3,18 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15C44325B19AAD48FF85A57E /* Pods_PinLayoutDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F6F83270ECF2472F276A30 /* Pods_PinLayoutDemo.framework */; };
+		5B013CEB0A6606EA8B48FD52 /* Pods_PinLayoutDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC9A0CC6435DBDC57116BE4 /* Pods_PinLayoutDemoTests.framework */; };
+		9D5D204424B7F715001AD946 /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D204324B7F715001AD946 /* MainTabbarViewController.swift */; };
+		9D5D204924B7FF03001AD946 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D204824B7FF03001AD946 /* HomeViewController.swift */; };
+		9D5D204B24B7FF39001AD946 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D204A24B7FF39001AD946 /* SleepViewController.swift */; };
+		9D5D204D24B7FF5B001AD946 /* PoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D204C24B7FF5B001AD946 /* PoolViewController.swift */; };
+		9D5D205524B8009C001AD946 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D205424B8009C001AD946 /* MainNavigationViewController.swift */; };
+		9D5D205B24B80871001AD946 /* SleepLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D205A24B80871001AD946 /* SleepLogView.swift */; };
+		9D5D205E24B80D8B001AD946 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D205D24B80D8B001AD946 /* UIViewExtensions.swift */; };
 		9DA53B8724B7F5DF0030D592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA53B8624B7F5DF0030D592 /* AppDelegate.swift */; };
 		9DA53B8924B7F5DF0030D592 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA53B8824B7F5DF0030D592 /* SceneDelegate.swift */; };
 		9DA53B8B24B7F5DF0030D592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA53B8A24B7F5DF0030D592 /* ViewController.swift */; };
-		9DA53B8E24B7F5DF0030D592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA53B8C24B7F5DF0030D592 /* Main.storyboard */; };
 		9DA53B9024B7F5E30030D592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA53B8F24B7F5E30030D592 /* Assets.xcassets */; };
 		9DA53B9324B7F5E30030D592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA53B9124B7F5E30030D592 /* LaunchScreen.storyboard */; };
 		9DA53B9E24B7F5E30030D592 /* PinLayoutDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA53B9D24B7F5E30030D592 /* PinLayoutDemoTests.swift */; };
 		9DA53BA924B7F5E30030D592 /* PinLayoutDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA53BA824B7F5E30030D592 /* PinLayoutDemoUITests.swift */; };
+		9DCD427F24B82D5B00BD5F7E /* AnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD427E24B82D5B00BD5F7E /* AnnouncementView.swift */; };
+		9DCD428724B8726600BD5F7E /* PoopLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD428624B8726600BD5F7E /* PoopLogView.swift */; };
+		9DCD428A24B8754D00BD5F7E /* SleepHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD428924B8754D00BD5F7E /* SleepHeaderView.swift */; };
+		9DCD428C24B8772C00BD5F7E /* SleepLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD428B24B8772C00BD5F7E /* SleepLogCell.swift */; };
+		EAACFD6282D95A7505D87445 /* Pods_PinLayoutDemo_PinLayoutDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2741B23C24E066FF6C30EA /* Pods_PinLayoutDemo_PinLayoutDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BC9A0CC6435DBDC57116BE4 /* Pods_PinLayoutDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinLayoutDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		366FFE157AA09D24E4960982 /* Pods-PinLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinLayoutDemo.release.xcconfig"; path = "Target Support Files/Pods-PinLayoutDemo/Pods-PinLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3A2741B23C24E066FF6C30EA /* Pods_PinLayoutDemo_PinLayoutDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinLayoutDemo_PinLayoutDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A282C4DD0F3581AFC2F0D2 /* Pods-PinLayoutDemo-PinLayoutDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinLayoutDemo-PinLayoutDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PinLayoutDemo-PinLayoutDemoUITests/Pods-PinLayoutDemo-PinLayoutDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D5D204324B7F715001AD946 /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		9D5D204824B7FF03001AD946 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9D5D204A24B7FF39001AD946 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		9D5D204C24B7FF5B001AD946 /* PoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolViewController.swift; sourceTree = "<group>"; };
+		9D5D205424B8009C001AD946 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		9D5D205A24B80871001AD946 /* SleepLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepLogView.swift; sourceTree = "<group>"; };
+		9D5D205D24B80D8B001AD946 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		9DA53B8324B7F5DF0030D592 /* PinLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA53B8624B7F5DF0030D592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DA53B8824B7F5DF0030D592 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9DA53B8A24B7F5DF0030D592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9DA53B8D24B7F5DF0030D592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DA53B8F24B7F5E30030D592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA53B9224B7F5E30030D592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DA53B9424B7F5E30030D592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +72,15 @@
 		9DA53BA424B7F5E30030D592 /* PinLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA53BA824B7F5E30030D592 /* PinLayoutDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinLayoutDemoUITests.swift; sourceTree = "<group>"; };
 		9DA53BAA24B7F5E30030D592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCD427E24B82D5B00BD5F7E /* AnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementView.swift; sourceTree = "<group>"; };
+		9DCD428624B8726600BD5F7E /* PoopLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopLogView.swift; sourceTree = "<group>"; };
+		9DCD428924B8754D00BD5F7E /* SleepHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepHeaderView.swift; sourceTree = "<group>"; };
+		9DCD428B24B8772C00BD5F7E /* SleepLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepLogCell.swift; sourceTree = "<group>"; };
+		A9975B0AAFEAAB9547B17DB7 /* Pods-PinLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinLayoutDemo.debug.xcconfig"; path = "Target Support Files/Pods-PinLayoutDemo/Pods-PinLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B43779E993FB2ADE2269653E /* Pods-PinLayoutDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinLayoutDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PinLayoutDemoTests/Pods-PinLayoutDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6F6F83270ECF2472F276A30 /* Pods_PinLayoutDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinLayoutDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63533B17E600F571E7206AC /* Pods-PinLayoutDemo-PinLayoutDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinLayoutDemo-PinLayoutDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-PinLayoutDemo-PinLayoutDemoUITests/Pods-PinLayoutDemo-PinLayoutDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FDEDE4E4689D99D5DBF3E521 /* Pods-PinLayoutDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinLayoutDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PinLayoutDemoTests/Pods-PinLayoutDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C44325B19AAD48FF85A57E /* Pods_PinLayoutDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B013CEB0A6606EA8B48FD52 /* Pods_PinLayoutDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAACFD6282D95A7505D87445 /* Pods_PinLayoutDemo_PinLayoutDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E659F4841F98FF2B8ED8618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9975B0AAFEAAB9547B17DB7 /* Pods-PinLayoutDemo.debug.xcconfig */,
+				366FFE157AA09D24E4960982 /* Pods-PinLayoutDemo.release.xcconfig */,
+				41A282C4DD0F3581AFC2F0D2 /* Pods-PinLayoutDemo-PinLayoutDemoUITests.debug.xcconfig */,
+				E63533B17E600F571E7206AC /* Pods-PinLayoutDemo-PinLayoutDemoUITests.release.xcconfig */,
+				FDEDE4E4689D99D5DBF3E521 /* Pods-PinLayoutDemoTests.debug.xcconfig */,
+				B43779E993FB2ADE2269653E /* Pods-PinLayoutDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D5D204224B7F6EB001AD946 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DCD428824B8752C00BD5F7E /* SleepViews */,
+				9D5D205924B806FA001AD946 /* HomeViews */,
+				9D5D204324B7F715001AD946 /* MainTabbarViewController.swift */,
+				9D5D204824B7FF03001AD946 /* HomeViewController.swift */,
+				9D5D204A24B7FF39001AD946 /* SleepViewController.swift */,
+				9D5D204C24B7FF5B001AD946 /* PoolViewController.swift */,
+				9D5D205424B8009C001AD946 /* MainNavigationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9D5D205924B806FA001AD946 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D205A24B80871001AD946 /* SleepLogView.swift */,
+				9DCD427E24B82D5B00BD5F7E /* AnnouncementView.swift */,
+				9DCD428624B8726600BD5F7E /* PoopLogView.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		9D5D205C24B80D78001AD946 /* Extesions */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D205D24B80D8B001AD946 /* UIViewExtensions.swift */,
+			);
+			path = Extesions;
+			sourceTree = "<group>";
+		};
 		9DA53B7A24B7F5DF0030D592 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +163,8 @@
 				9DA53B9C24B7F5E30030D592 /* PinLayoutDemoTests */,
 				9DA53BA724B7F5E30030D592 /* PinLayoutDemoUITests */,
 				9DA53B8424B7F5DF0030D592 /* Products */,
+				7E659F4841F98FF2B8ED8618 /* Pods */,
+				CCEC5CB544C6FB38C14C56E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +181,11 @@
 		9DA53B8524B7F5DF0030D592 /* PinLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9D5D205C24B80D78001AD946 /* Extesions */,
+				9D5D204224B7F6EB001AD946 /* ViewControllers */,
 				9DA53B8624B7F5DF0030D592 /* AppDelegate.swift */,
 				9DA53B8824B7F5DF0030D592 /* SceneDelegate.swift */,
 				9DA53B8A24B7F5DF0030D592 /* ViewController.swift */,
-				9DA53B8C24B7F5DF0030D592 /* Main.storyboard */,
 				9DA53B8F24B7F5E30030D592 /* Assets.xcassets */,
 				9DA53B9124B7F5E30030D592 /* LaunchScreen.storyboard */,
 				9DA53B9424B7F5E30030D592 /* Info.plist */,
@@ -128,6 +211,25 @@
 			path = PinLayoutDemoUITests;
 			sourceTree = "<group>";
 		};
+		9DCD428824B8752C00BD5F7E /* SleepViews */ = {
+			isa = PBXGroup;
+			children = (
+				9DCD428924B8754D00BD5F7E /* SleepHeaderView.swift */,
+				9DCD428B24B8772C00BD5F7E /* SleepLogCell.swift */,
+			);
+			path = SleepViews;
+			sourceTree = "<group>";
+		};
+		CCEC5CB544C6FB38C14C56E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6F6F83270ECF2472F276A30 /* Pods_PinLayoutDemo.framework */,
+				3A2741B23C24E066FF6C30EA /* Pods_PinLayoutDemo_PinLayoutDemoUITests.framework */,
+				0BC9A0CC6435DBDC57116BE4 /* Pods_PinLayoutDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DA53BAD24B7F5E30030D592 /* Build configuration list for PBXNativeTarget "PinLayoutDemo" */;
 			buildPhases = (
+				A65745CA6709030F2D742066 /* [CP] Check Pods Manifest.lock */,
 				9DA53B7F24B7F5DF0030D592 /* Sources */,
 				9DA53B8024B7F5DF0030D592 /* Frameworks */,
 				9DA53B8124B7F5DF0030D592 /* Resources */,
+				97BF4F63E6EB0885E8077EC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DA53BB024B7F5E30030D592 /* Build configuration list for PBXNativeTarget "PinLayoutDemoTests" */;
 			buildPhases = (
+				413CF03FC884E2EFDA135162 /* [CP] Check Pods Manifest.lock */,
 				9DA53B9524B7F5E30030D592 /* Sources */,
 				9DA53B9624B7F5E30030D592 /* Frameworks */,
 				9DA53B9724B7F5E30030D592 /* Resources */,
@@ -170,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DA53BB324B7F5E30030D592 /* Build configuration list for PBXNativeTarget "PinLayoutDemoUITests" */;
 			buildPhases = (
+				450318FF16F34797519135D1 /* [CP] Check Pods Manifest.lock */,
 				9DA53BA024B7F5E30030D592 /* Sources */,
 				9DA53BA124B7F5E30030D592 /* Frameworks */,
 				9DA53BA224B7F5E30030D592 /* Resources */,
+				7FAF05879D6826D459017324 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +341,6 @@
 			files = (
 				9DA53B9324B7F5E30030D592 /* LaunchScreen.storyboard in Resources */,
 				9DA53B9024B7F5E30030D592 /* Assets.xcassets in Resources */,
-				9DA53B8E24B7F5DF0030D592 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +360,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		413CF03FC884E2EFDA135162 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinLayoutDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		450318FF16F34797519135D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinLayoutDemo-PinLayoutDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FAF05879D6826D459017324 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinLayoutDemo-PinLayoutDemoUITests/Pods-PinLayoutDemo-PinLayoutDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinLayoutDemo-PinLayoutDemoUITests/Pods-PinLayoutDemo-PinLayoutDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PinLayoutDemo-PinLayoutDemoUITests/Pods-PinLayoutDemo-PinLayoutDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97BF4F63E6EB0885E8077EC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinLayoutDemo/Pods-PinLayoutDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinLayoutDemo/Pods-PinLayoutDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PinLayoutDemo/Pods-PinLayoutDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A65745CA6709030F2D742066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinLayoutDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DA53B7F24B7F5DF0030D592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5D205B24B80871001AD946 /* SleepLogView.swift in Sources */,
+				9D5D204B24B7FF39001AD946 /* SleepViewController.swift in Sources */,
+				9D5D204924B7FF03001AD946 /* HomeViewController.swift in Sources */,
 				9DA53B8B24B7F5DF0030D592 /* ViewController.swift in Sources */,
+				9D5D204D24B7FF5B001AD946 /* PoolViewController.swift in Sources */,
+				9D5D204424B7F715001AD946 /* MainTabbarViewController.swift in Sources */,
+				9DCD428A24B8754D00BD5F7E /* SleepHeaderView.swift in Sources */,
+				9D5D205E24B80D8B001AD946 /* UIViewExtensions.swift in Sources */,
+				9D5D205524B8009C001AD946 /* MainNavigationViewController.swift in Sources */,
+				9DCD427F24B82D5B00BD5F7E /* AnnouncementView.swift in Sources */,
 				9DA53B8724B7F5DF0030D592 /* AppDelegate.swift in Sources */,
 				9DA53B8924B7F5DF0030D592 /* SceneDelegate.swift in Sources */,
+				9DCD428C24B8772C00BD5F7E /* SleepLogCell.swift in Sources */,
+				9DCD428724B8726600BD5F7E /* PoopLogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +517,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9DA53B8C24B7F5DF0030D592 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DA53B8D24B7F5DF0030D592 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9DA53B9124B7F5E30030D592 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +644,7 @@
 		};
 		9DA53BAE24B7F5E30030D592 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9975B0AAFEAAB9547B17DB7 /* Pods-PinLayoutDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +663,7 @@
 		};
 		9DA53BAF24B7F5E30030D592 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366FFE157AA09D24E4960982 /* Pods-PinLayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +682,7 @@
 		};
 		9DA53BB124B7F5E30030D592 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEDE4E4689D99D5DBF3E521 /* Pods-PinLayoutDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +705,7 @@
 		};
 		9DA53BB224B7F5E30030D592 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43779E993FB2ADE2269653E /* Pods-PinLayoutDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +728,7 @@
 		};
 		9DA53BB424B7F5E30030D592 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A282C4DD0F3581AFC2F0D2 /* Pods-PinLayoutDemo-PinLayoutDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +749,7 @@
 		};
 		9DA53BB524B7F5E30030D592 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63533B17E600F571E7206AC /* Pods-PinLayoutDemo-PinLayoutDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
